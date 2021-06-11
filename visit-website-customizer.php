@@ -2,8 +2,8 @@
 /**
  * Plugin Name: Visit Website Link in Customizer
  * Plugin URI: https://github.com/thenahidul/visit-website-customizer
- * Description: This Plugin adds a Visit Website Button in the WordPress Customizer so users can easily go to the frontend of the website either on a new tab or existing tab.
- * Version: 1.0
+ * Description: This Plugin adds a 'Visit Website' Button and 'Visit Store' Button(if woocommerce installed & activated) in WordPress Customizer so users can easily go to the frontend of the website either on a new tab or existing tab.
+ * Version: 2.0
  * Requires at least: 5.0
  * Tested up to: 5.7
  * Requires PHP version: 7.0

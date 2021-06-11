@@ -8,24 +8,63 @@
 	z-index: 999;
 }
 
-.vwlc-button-control {
+.vwlc-button-content {
 	display: none;
+	background-color: #f0f6fc;
 	position: absolute;
-	background: #d6d6d9;
-	padding: 10px 15px;
-	border: 1px solid #cbcdce;
-	border-radius: 5px;
-	min-width: 101px;
 	top: 100%;
 	white-space: nowrap;
-	left: 0px;
+	list-style: none;
+	padding: 0;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+	border: 1px solid #c3c4c7;
+	margin: 0;
+	z-index: 999;
 }
 
-.vwlc-button-wrapper:hover .vwlc-button-control {
+.vwlc-button-wrapper:hover .vwlc-button-content {
 	display: block;
 }
 
+.vwlc-button-content li {
+	border-bottom: 1px solid #dedee0;
+	padding: 12px 15px;
+	list-style: none;
+	margin: 0;
+}
+
+.vwlc-button-content li.vwlc-button-control {
+	border-bottom: none;
+	padding: 10px 15px;
+	font-size: 90%;
+}
+
+.vwlc-button-content a {
+	line-height: 1;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+.vwlc-button-content a:hover {
+	color: #135e96;
+}
+.vwlc-button-content a:focus {
+	outline: none;
+	-webkit-box-shadow: none;
+	        box-shadow: none;
+}
 .vwlc-button-control label {
 	position: relative;
 	top: -1px;
+}
+.vwlc-button-visitsite .dashicons {
+	position: absolute;
+	right: 4px;
+	top: 8px;
+	font-size: 14px;
+}
+
+.vwlc-button-wrapper .vwlc-button-visitsite {
+	padding-right: 20px;
 }
