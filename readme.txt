@@ -11,7 +11,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Adds a Visit Website and Visit Store(woocommerce shop) Link in Customizer view of the WordPress Website.
 
 == Description ==
-This Plugin adds a 'Visit Website' Button and 'Visit Store' Button(when woocommerce installed & activated) in WordPress Customizer so users can easily go to the frontend of the website either on a new tab or existing tab.
+This Plugin adds a Visit Website Button and Visit Store Button(when woocommerce installed & activated) in WordPress Customizer so users can easily go to the frontend of the website either on a new tab or existing tab.
 
 == Installation ==
 Installation is fairly straightforward. Install it from WordPress Plugin Repository or Manually by downloading the Plugin zip file. Just activate it and the button is already there on the Customizer. No settings required.
