@@ -17,7 +17,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'VWLC_VERSION', '1.0' );
+define( 'VWLC_VERSION', '2.0' );
 
 /**
  * Plugin main function
